@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_CHAIN_TESTAMENT_ADDRESS": "@chain_testament_address",
+    "NEXT_PUBLIC_ACCESS_CONTROL_ADDRESS": "@access_control_address",
+    "NEXT_PUBLIC_TIME_LOCK_ADDRESS": "@time_lock_address",
+    "NEXT_PUBLIC_INFURA_PROJECT_ID": "@infura_project_id",
+    "NEXT_PUBLIC_INFURA_PROJECT_SECRET": "@infura_project_secret",
+    "NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID": "@wallet_connect_project_id"
+  }
+} 
